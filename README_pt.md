@@ -1,18 +1,17 @@
 # Clone
-A simple and complete clone method.
+Um método simples e completo para clonar objetos.
 
-It will return a new object with all the properties and methods of the original object.
+Este método deve retornar um objeto com todas as propriedades e métodos do objeto original.
+A função funciona de forma recursiva clonando também possíveis referências que o objeto possa ter.
 
-This clone method will act recursively also cloning the possible references that an object may have.
-
-## Installation
-To install this module using npm.
+## Instalação
+Para instalar utilizando o npm
 ```
 npm install @goori-soft/clone
 ```
 
-## How to use it
-This is a simple example.
+## Como usar
+Veja este exemplo simples.
 ```javascript
 const clone = require('@goori-soft/clone');
 
@@ -40,10 +39,10 @@ console.log('Original:', myObj);
 console.log('Clone:', myClone);
 ```
 
-## Note
-If you intend to clone an object keeping the original references, it might be more interesting to use a native javascript destructor.
+## Nota
+Se você pretende clonar um objeto mantendo as referencias originais talvez seja mais interessante utilizar um destrutor nativo do javascript.
 
-In this case, this module is entirely unnecessary.
+Neste caso este módulo é inteiramente dispensável.
 ```javascript
 const parent = {
     id: 0,

@@ -1,0 +1,24 @@
+{
+  "name": "clone",
+  "version": "0.0.1",
+  "description": "A complete clone method",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goori-soft/clone.git"
+  },
+  "keywords": [
+    "clone",
+    "method",
+    "function"
+  ],
+  "author": "Lucas Machado Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goori-soft/clone/issues"
+  },
+  "homepage": "https://github.com/goori-soft/clone#readme"
+}
